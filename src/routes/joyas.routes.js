@@ -1,5 +1,7 @@
 const { Router } = require('express')
-const { getJoyas, getJoyasFiltradas, getJoya } = require('../controllers/joyas.controller')
+const getJoyas = require('../controllers/getJoyas')
+const getJoyasFiltradas = require('../controllers/getJoyasFiltradas')
+const getJoya = require('../controllers/getJoya')
 
 const router = Router()
 
